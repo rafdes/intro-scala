@@ -1,0 +1,2 @@
+# intro-scala
+esercizi scala
