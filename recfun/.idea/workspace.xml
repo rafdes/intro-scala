@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e92ce1d2-f8f0-4695-a6f5-7370c6ae2dae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_novocode_junit_interface_0_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__junit_junit_4_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_hamcrest_hamcrest_core_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_sbt_test_interface_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/recfun-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/recfun.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/recfun/RecFun.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/recfun/RecFun.scala" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1coa0sKkblp2Yu2HQe3BiQBZ7DF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="JUnit.RecFunSuite">
+    <configuration name="RecFun" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="recfun.RecFun" />
+      <module name="recfun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recfun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecFunSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="recfun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recfun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="recfun" />
+      <option name="MAIN_CLASS_NAME" value="recfun.RecFunSuite" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecFunSuite.balance$colon$u0020counting$u0020is$u0020not$u0020enough" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="recfun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recfun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="recfun" />
+      <option name="MAIN_CLASS_NAME" value="recfun.RecFunSuite" />
+      <option name="METHOD_NAME" value="balance$colon$u0020counting$u0020is$u0020not$u0020enough" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RecFunSuite" />
+        <item itemvalue="JUnit.RecFunSuite.balance$colon$u0020counting$u0020is$u0020not$u0020enough" />
+        <item itemvalue="Application.RecFun" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e92ce1d2-f8f0-4695-a6f5-7370c6ae2dae" name="Default Changelist" comment="" />
+      <created>1591197179299</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591197179299</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="386" height="466" key="DebuggerActiveHint" timestamp="1591256727850">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="386" height="466" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1591256727850" />
+    <state width="938" height="284" key="GridCell.Tab.0.bottom" timestamp="1591258834531">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1591258834531" />
+    <state width="938" height="284" key="GridCell.Tab.0.center" timestamp="1591258834531">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="284" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1591258834531" />
+    <state width="938" height="284" key="GridCell.Tab.0.left" timestamp="1591258834531">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="284" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1591258834531" />
+    <state width="938" height="284" key="GridCell.Tab.0.right" timestamp="1591258834531">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="284" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1591258834531" />
+    <state width="938" height="348" key="GridCell.Tab.1.bottom" timestamp="1591258307392">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1591258307392" />
+    <state width="938" height="348" key="GridCell.Tab.1.center" timestamp="1591258307392">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1591258307392" />
+    <state width="938" height="348" key="GridCell.Tab.1.left" timestamp="1591258307392">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1591258307392" />
+    <state width="938" height="348" key="GridCell.Tab.1.right" timestamp="1591258307392">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1591258307392" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1591198609489">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1591198609489" />
+  </component>
+</project>
