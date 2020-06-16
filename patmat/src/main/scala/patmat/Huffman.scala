@@ -157,13 +157,13 @@ trait Huffman extends HuffmanInterface {
    */
   def decode(tree: CodeTree, bits: List[Bit]): List[Char] = {
     def decodeExe(appTree: CodeTree, appBits: List[Bit]): List[Char] = {
-      if (appBits.isEmpty) Nil
-      else
-        tree match {
-          case Leaf(ch, w)       => List(ch) ::: decodeExe(tree,appBits.tail)
-          case Fork(l, r, ch, w) => if (appBits.head == 0) decodeExe(l, appBits.tail)
-                                    else decode(r, appBits.tail)
-        }
+      appTree match {
+        case Leaf(ch, w)       => List(ch) ::: decodeExe(tree,appBits)
+        case Fork(l, r, ch, w) => if (appBits.isEmpty) Nil
+                                  else
+                                    if (appBits.head == 0) decodeExe(l, appBits.tail)
+                                    else decodeExe(r, appBits.tail)
+      }
     }
     decodeExe(tree,bits)
   }
@@ -236,11 +236,14 @@ trait Huffman extends HuffmanInterface {
    * sub-trees, think of how to build the code table for the entire tree.
    */
   def convert(tree: CodeTree): CodeTable = {
-    if (tree == null) Nil
-    tree match {
-      case Leaf(ch, w)       => List((ch, encodeSingle(tree, ch)))
-      case Fork(l, r, ch, w) => mergeCodeTables(convert(l), convert(r))
+    def appConvert(appTree: CodeTree): CodeTable = {
+      if (appTree == null) Nil
+      appTree match {
+        case Leaf(ch, w)       => List((ch, encodeSingle(tree, ch)))
+        case Fork(l, r, ch, w) => mergeCodeTables(appConvert(l), appConvert(r))
+      }
     }
+    appConvert(tree)
   }
 
   /**
