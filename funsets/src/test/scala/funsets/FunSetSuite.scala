@@ -71,7 +71,5 @@ class FunSetSuite {
     }
   }
 
-
-
   @Rule def individualTestTimeout = new org.junit.rules.Timeout(10 * 1000)
 }

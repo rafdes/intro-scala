@@ -18,7 +18,7 @@ trait FunSets extends FunSetsInterface {
   /**
    * Returns the set of the one given element.
    */
-  def singletonSet(elem: Int): FunSet = (a: Int) => a == elem
+  def singletonSet(elem: Int): FunSet = _ == elem
 
   /**
    * Returns the union of the two given sets,
@@ -41,7 +41,7 @@ trait FunSets extends FunSetsInterface {
   /**
    * Returns the subset of `s` for which `p` holds.
    */
-  def filter(s: FunSet, p: Int => Boolean): FunSet = (a: Int) => p(a)
+  def filter(s: FunSet, p: Int => Boolean): FunSet = (a: Int) => contains(s,a) && p(a)
 
   /**
    * The bounds for `forall` and `exists` are +/- 1000.
@@ -64,14 +64,7 @@ trait FunSets extends FunSetsInterface {
    * Returns whether there exists a bounded integer within `s`
    * that satisfies `p`.
    */
-  def exists(s: FunSet, p: Int => Boolean): Boolean = {
-    def iter(a: Int): Boolean = {
-      if (contains(s, a)  && p(a)) true
-      else if (a > bound) false
-      else iter(a + 1)
-    }
-    iter(-bound)
-  }
+  def exists(s: FunSet, p: Int => Boolean): Boolean = !forall(s,!p(_))
 
   /**
    * Returns a set transformed by applying `f` to each element of `s`.
